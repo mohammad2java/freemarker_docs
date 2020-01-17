@@ -43,7 +43,8 @@
 	  Elephants and pythons cost the same today.
 	</#if>
 
-	If you have a variable with boolean value (a true/false thing) then you can use it directly as the condition of if:
+	If you have a variable with boolean value (a true/false thing) 
+	then you can use it directly as the condition of if:
 	<#if animals.python.protected>
 	  Pythons are protected animals!
 	</#if>
@@ -113,7 +114,7 @@ directive style to fetch i18n messages
 	There is user defined macro build by spring- spring.ftl .
 	if this is not working you can  create your own user-defined directive
 
-USER_DEFINED DIRECTIVE
+user_define directive
 ---------------------------
 	<#macro directive_name var1 var2...>
 	
