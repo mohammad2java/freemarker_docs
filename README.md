@@ -11,7 +11,7 @@
 2-FTL tags: (also known as freemarker directive)
 -----------------------------------------------
 
-1) assignment directive
+#1) assignment directive
 -----------------------
 	
 	defined variable
@@ -20,7 +20,7 @@
 	1. ${x}  <#-- we see the plain var. here -->
 
 
-2) condition directive
+#2) condition directive
 ---------------------
 	1) <#if> tag;
 
@@ -50,7 +50,7 @@
 	</#if>
 
 
-3) loop directive
+#3) loop directive
 -----------------
 
 	The list directive(for looping)
@@ -71,7 +71,7 @@
 	</#list>
 	
 	
-4) include directive
+#4) include directive
 -------------------
 
 	<#include "/copyright_footer.html">
